@@ -13,7 +13,7 @@ public class exercise001 {
         System.out.println("Multiples: " + multiples);
     }
 
-    public static ArrayList<Integer> listMultiples(int limit) {
+    private static ArrayList<Integer> listMultiples(int limit) {
         ArrayList<Integer> multiples = new ArrayList<Integer>();
         for (int x = 0; x < limit; x++) {
             if (x % 3 == 0 || x % 5 == 0) {
@@ -23,7 +23,7 @@ public class exercise001 {
         return multiples;
     }
 
-    public static int calculateSum(ArrayList<Integer> numbers) {
+    private static int calculateSum(ArrayList<Integer> numbers) {
         int sum = 0;
         for (int number : numbers) {
             sum += number;

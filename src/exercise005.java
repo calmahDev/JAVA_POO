@@ -1,0 +1,2 @@
+public class exercise005 {
+}
